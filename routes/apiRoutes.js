@@ -3,6 +3,7 @@
 // These data sources hold arrays of information on table-data, waitinglist, etc.
 
 const noteData = require('../data/noteData');
+const newNoteData = require('../data/newnoteData');
 // import tableData from '../data/noteData'; ES6 version
 
 module.exports = (app) => {
