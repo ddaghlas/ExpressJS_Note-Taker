@@ -50,6 +50,7 @@ const deleteNote = (id) =>
     },
   });
 
+// If there is an activeNore, display, otherwise render empty inputs
 const renderActiveNote = () => {
   hide(saveNoteBtn);
 
@@ -66,6 +67,7 @@ const renderActiveNote = () => {
   }
 };
 
+// Get the note data from the inputs, save it to the db and update the view
 const handleNoteSave = () => {
   const newNote = {
     title: noteTitle.value,
@@ -108,6 +110,8 @@ const handleNewNoteView = (e) => {
   renderActiveNote();
 };
 
+// If a note's title or text are empty, hide the save button
+// Or else show it 
 const handleRenderSaveBtn = () => {
   if (!noteTitle.value.trim() || !noteText.value.trim()) {
     hide(saveNoteBtn);
