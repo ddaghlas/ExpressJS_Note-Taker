@@ -5,8 +5,8 @@
 ## Description
 - As a developer, my task was to modify starter code to create an application called Note Taker that can be used to write and save notes. This application uses an Express.js back end and will save and retrieve note data from a JSON file.
 - The application’s front end had already been created. My job was to build the back end, connect the two, and then deploy the entire application to Heroku.
-- I added a DELETE route to the application using `DELETE /api/notes/:id` that will receive a query parameter containing the id of the note to delete. The route will read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file. This displays an empty column on the left, free of saved notes. 
-- I created two HTML routes that will GET and return the data from both `.html` files. An API route was created to read the `db.json` file and return all saved notes as JSON.
+- A DELETE route was added to the application using `DELETE /api/notes/:id` that will receive a query parameter containing the id of the note to delete. The route will read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file. This displays an empty column on the left, free of saved notes. 
+- Two HTML routes were created that will GET and return the data from both `.html` files. An API route was created to read the `db.json` file and return all saved notes as JSON.
 - An API to POST the notes was created to receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client (machine). This is where the `uuid npm package` was utilized, creating a unique id for each new note saved.
 - This Note Taker application can be used by a business owner, for example, to write and save notes and to keep track of tasks to complete. 
 
