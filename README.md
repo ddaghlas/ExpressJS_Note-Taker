@@ -24,7 +24,10 @@
 
 ## Usage
 - The application has a `db.json` file on the back end that will be used to store and retrieve notes using the `fs` module.
-- GIVEN a note-taking application, WHEN a user opens the Note Taker, THEN they are presented with a landing page with a link to a notes page. WHEN the user clicks on the link to the notes page, THEN they are presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column. WHEN the user enters a new note title and the note’s text, THEN a Save icon appears in the navigation at the top of the page. WHEN the user clicks on the Save icon, THEN the new note they have entered is saved and appears in the left-hand column with the other existing notes. WHEN the user clicks on an existing note in the list in the left-hand column, THEN that note appears in the right-hand column. WHEN the user clicks on the Write icon in the navigation at the top of the page, THEN they are presented with empty fields to enter a new note title and the note’s text in the right-hand column.
+- This is a note-taking application, that when opened, will present the user with a home page containing a "Get Started" button link to a notes page. When the "Get Started" button is clicked, the user is presented with a page with existing notes (if previously saved) listed in the left-hand column, plus empty fields to enter a new Note Title and the note’s text in the right-hand column. 
+- To enter a new note, create a Note Title and insert the desired text in the note's text section. Once this is done, a Save icon will appear in the navigation at the top of the page. The Note Title and its text are then saved and will appear in the left-hand column with any other existing notes.
+- To view an existing note, simply click on the desired note in the list in the left-hand column; its title and contents will appear in the column to the right. 
+- The "pen" or "write" icon in the navigation at the top of the page, when clicked, will generate another empty field for a new Note Title and text to be entered. 
 
 
 ## Screenshots
