@@ -14,7 +14,7 @@
   ## Table of Contents
   * [Usage](#usage)
   * [DEMO App Images](#Screenshots)
-  * [Build With](#builtwith)
+  * [Built With](#BuiltWith)
   * [License](#license)
   * [Questions](#questions)
 
