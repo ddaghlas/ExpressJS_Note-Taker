@@ -14,8 +14,7 @@
 
   ## Table of Contents
   * [Usage](#usage)
-  * [DEMO App Images](#Screenshots)
-  * [Built With](#Built-With)
+  * [Built With](#tools)
   * [License](#license)
   * [Questions](#questions)
 
@@ -35,11 +34,12 @@
 - To view an existing note, simply click on the desired note in the list in the left-hand column; its title and contents will appear in the column to the right. 
 - The "pen" or "write" icon in the navigation at the top of the page, when clicked, will generate another empty field for a new Note Title and text to be entered. 
 
-## Built-With
+## Tools
 - JavaScript
 - Node.js
 - Node Packages:
   * Express.js
+- Heroku
 
 ## License
 
